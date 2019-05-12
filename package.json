@@ -1,0 +1,33 @@
+{
+  "name": "object-detection-tensorflow",
+  "version": "1.0.0",
+  "description": "In-browser object detection with Tensorflow",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "tsc && node src/app.js",
+    "test": "echo \"No tests, yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blockost/object-detection-tensorflow.git"
+  },
+  "keywords": [
+    "object",
+    "detection",
+    "tensorflow",
+    "typescript",
+    "deep-learning",
+    "machine-learning"
+  ],
+  "author": "Blockost (Simon Espigolé)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blockost/object-detection-tensorflow/issues"
+  },
+  "homepage": "https://github.com/Blockost/object-detection-tensorflow#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "@types/node": "^12.0.0",
+    "typescript": "^3.4.5"
+  }
+}
